@@ -1,0 +1,17 @@
+{
+  "roles": [
+    {
+      "name": "admin",
+      "permissions": [
+        "create_product",
+        "read_product",
+        "update_product",
+        "delete_product"
+      ]
+    },
+    {
+      "name": "client",
+      "permissions": ["read_record"]
+    }
+  ]
+}
